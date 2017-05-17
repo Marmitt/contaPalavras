@@ -1,10 +1,6 @@
-function contaPalavras (
+function contaPalavras (split('  ').length){
+  
+  var palavras = ()
 
-
-){
-
-
-
-"Meu nome é Mateus".split('  ').length
 }
 module.exports = { contaPalavras };
