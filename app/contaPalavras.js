@@ -1,6 +1,10 @@
+function contaPalavras (
+
+
+){
 
 
 
-
-
-"meu nome é mateus" .split('  ').length
+"Meu nome é Mateus".split('  ').length
+}
+module.exports = { contaPalavras };
