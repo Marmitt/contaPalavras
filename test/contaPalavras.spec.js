@@ -7,7 +7,7 @@ const { calculaTotalItem } = require('../app/contaPalavras');
 
 lab.experiment('Teste com 5 frases', () => {
   lab.test('Deve retornar 5', (done) => {
-  expect(calculaTotalItem(5)).to.equal({valor: 5 });
+  expect(calculaTotalItem("Meu nome é Mateus Marmitt")).to.equal({valor: 5 });
   done();
   });
 });
