@@ -11,3 +11,9 @@ lab.experiment('Teste com 5 palavras', () => {
   done();
   });
 });
+lab.experiment('Teste com nenhuma palavra', () => {
+  lab.test('Deve retornar uma mensagem', (done) => {
+  expect(contaPalavras("")).to.equal({mensagem:"Parametro faltando" });
+  done();
+  });
+});
