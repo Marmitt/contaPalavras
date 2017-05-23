@@ -12,7 +12,7 @@ lab.experiment('Teste com 5 palavras', () => {
   });
 });
 lab.experiment('Teste com nenhuma palavra', () => {
-  lab.test('Deve retornar uma mensagem', (done) => {
+  lab.test.skip('Deve retornar uma mensagem', (done) => {
   expect(contaPalavras("")).to.equal({mensagem:"Parametros faltando" });
   done();
   });
